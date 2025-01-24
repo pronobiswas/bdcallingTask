@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="./index.css" />
+    <script src="./index.js"></script>
+  </head>
+  <body id="root">
+    <!-- ======header========== -->
+    <header class="container">
+      <nav>
+        <div class="logo">
+          <img src="./asset/Logo.png" alt="logo" />
+        </div>
+        <div class="navLeft">
+          <img src="./asset/flag.png" alt="flag" />
+
+          <button type="button" class="NavBtn">
+            <span><i class="fa-solid fa-paper-plane"></i></span> Join Us On
+            Telegram
+          </button>
+        </div>
+      </nav>
+    </header>
+    <!-- ======banner===== -->
+    <div id="banner" class="container">
+      <div class="bannerWarpper">
+        <!-- ========banner content======= -->
+        <!-- <div class="bannerContent">
+          <h2 class="bannerSubHeading">Let Your Money Work for You</h2>
+          <h1>
+            <span class="colortext"
+              >If there was a way to grow your investments by 40% in</span
+            >
+            <span>90 days without lifting a finger, would you?</span>
+          </h1>
+          <p>
+            Automated trading made simple. Start with just $500 and experience
+            up to 40% growth in 90 days — guaranteed.
+          </p>
+          <div class="btnwarpper">
+            <button type="button" class="trialBtn">
+              Start Your Free Trial
+            </button>
+            <button type="button" class="transparentBtn">
+              <span>Book a call</span>
+            </button>
+          </div>
+        </div> -->
+        <!-- ========bannner form======= -->
+        <!-- <div class="bannerForm">
+          <div class="formWarpper">
+            <form>
+              <div class="rows">
+                <div class="name">
+                  <label for="fullname">Full Name</label>
+                  <input
+                    type="text"
+                    id="fullname"
+                    name="fullname"
+                    placeholder="eg: Jhon Doe"
+                  />
+                </div>
+                <div class="email">
+                  <label for="email">Email</label>
+                  <input
+                    type="mail"
+                    id="email"
+                    name="email"
+                    placeholder="eg: jhon@email.com"
+                  />
+                </div>
+              </div>
+              <div class="rows">
+                <div class="availableDate">
+                  <label for="availableDate">Available Date</label>
+                  <select name="availableDate" id="availableDate">
+                    <option value="01-02-2025">01-02-2025</option>
+                    <option value="01-02-2025">01-03-2025</option>
+                    <option value="01-02-2025">01-04-2025</option>
+                    <option value="01-02-2025">01-05-2025</option>
+                  </select>
+                </div>
+                <div class="phone">
+                  <label for="phone">Email</label>
+                  <input
+                    type="text"
+                    id="phone"
+                    name="phone"
+                    placeholder="1234556789"
+                  />
+                </div>
+              </div>
+              <div class="textareas">
+                <label for="messagess">Share Your Mesages</label>
+                <textarea name="messagess" id="messagess" rows="5"></textarea>
+              </div>
+              <button type="button" class="consultBtn">
+                Book Your Free Consultation
+              </button>
+            </form>
+          </div>
+        </div> -->
+      </div>
+    </div>
+    <!-- =====growSection====== -->
+    <section id="growTime" class="container">
+      <div class="growTimeContainer">
+        <div class="growTimeWarpper">
+          <div class="txtBox">
+            <span class="bigText">20%</span>
+            <span class="smTxt">Growth in 30 Days | Established 5+ Years</span>
+          </div>
+          <div class="timerBox">
+            <span class="offerEndsIN">OFFER ENDS IN</span>
+            <div class="timerDisplay">
+              <div id="hours" class="times"></div>
+              <div id="munites" class="times"></div>
+              <div id="seconds" class="times"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <sectiion id="ultimate">
+      <!-- =======wealthCardWarrper======= -->
+      <!-- <div class="container">
+        <div class="wealthHeader">
+          <h2>Ultimate <span class="colortext">Wealth Builder</span> Offer</h2>
+          <p class="wealthPragraph">
+            We understand trust is earned, not given. That’s why we’re raising
+            the stakes with our boldest offer yet:
+          </p>
+        </div>
+
+        <div class="walthContentWarpper">
+          <div class="wealthCard">
+            <div class="wealthCardHeader">
+              <h3 class="wealthCardTitle">Double Your Deposit Guarantee</h3>
+              <div class="wealthCardPng">
+                <img src="./asset/Vector2X.png" alt="" />
+              </div>
+            </div>
+            <p class="wealthPragraph">
+              Deposit $500, and if your investment doesn’t grow by at least 40%
+              in 90 days, we’ll refund your entire deposit AND give you an
+              additional $500 for your time.
+            </p>
+          </div>
+          <div class="wealthCard">
+            <div class="wealthCardHeader">
+              <h3 class="wealthCardTitle">Profit First</h3>
+              <div class="wealthCardPng">
+                <img src="./asset/Dollar.png" alt="png" />
+              </div>
+            </div>
+            <p class="wealthPragraph">
+              Pay Later: You won’t owe us a penny until you’ve earned £1,000 in
+              profits. No monthly fees, no upfront charges—just results.
+            </p>
+          </div>
+          <div class="wealthCard">
+            <div class="wealthCardHeader">
+              <h3 class="wealthCardTitle">Zero-Risk Trial</h3>
+              <div class="wealthCardPng">
+                <img src="./asset/risk-free.png" alt="" />
+              </div>
+            </div>
+            <p class="wealthPragraph">
+              If you’re not satisfied at the end of 90 days, walk away with
+              everything you’ve earned—no questions asked..
+            </p>
+          </div>
+          <div class="wealthCard">
+            <div class="wealthCardHeader">
+              <h3 class="wealthCardTitle">Double Your Deposit Guarantee</h3>
+              <div class="wealthCardPng">
+                <img src="./asset/Group2310.png" alt="" />
+              </div>
+            </div>
+            <p class="wealthPragraph">
+              Deposit anything up to $1000 and enjoy a full 100% Deposit bonus.
+              Yes! We double your deposit. This provides a significant
+              advantage, it immediately doubles your investment. This
+              substantial boost sets a strong foundation for generating profits.
+              Having a larger starting amount means you can achieve faster
+              and higher returns.
+            </p>
+          </div>
+        </div>
+        <button type="button" class="signUpBtn">Sign Up Now </button>
+      </div> -->
+    </sectiion>
+
+    <!-- =====offers sections===== -->
+     <section id="timesOffer">
+        <div class="container">
+            <h3 class="timerHeader">OFFER WILL END IN</h3>
+            <div class="timerWarpper">
+                <div  class="timerCircle" ><span id="CircleHour" class="ss"></span></div>
+                <div class="timerCircle" ><span id="CircleMunite" class="ss"></span></div>
+                <div class="timerCircle" > <span id="CircleSecond" class="ss"></span></div>
+            </div>
+        </div>
+     </section>
+  </body>
+</html>
