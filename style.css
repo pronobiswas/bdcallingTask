@@ -1,0 +1,518 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+  font-family: "Titillium Web", serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  line-height: 0.8;
+}
+
+h1 {
+  font-size: 72px;
+  font-weight: 700;
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+.colortext {
+  background: -webkit-linear-gradient(180deg, #87ceec, #01befe, #1e90ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+a,
+button {
+  display: inline-block;
+}
+
+.container {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+#whyHundred {
+  background-image: url(./asset/bg/WhyBg.png);
+  background-size: 100% 100%;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+#whyHundred .container .HundredHeadrer {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 759px;
+  text-align: center;
+  margin-bottom: 60px;
+}
+#whyHundred .container .cardContainer {
+  width: 100%;
+  display: flex;
+  gap: 30px;
+  margin-bottom: 30px;
+}
+#whyHundred .container .cardContainer .card {
+  width: 100%;
+  max-width: 460px;
+  padding: 40px 30px;
+  background-image: url(./asset/BookAppointmentForm.png);
+  background-size: 100% 100%;
+  border-radius: 5px;
+  display: flex;
+  gap: 10px;
+}
+#whyHundred .container .cardContainer .card .txt h3 {
+  margin-bottom: 10px;
+}
+#whyHundred .container .supportBox {
+  width: 100%;
+  padding: 40px 30px;
+  background-image: url(./asset/Frame1.png);
+  background-size: 100% 100%;
+  display: flex;
+  gap: 16px;
+}
+#whyHundred .container .supportBox h3 {
+  padding-bottom: 10px;
+}
+#whyHundred .container .hundredTxt {
+  width: 100%;
+  max-width: 963px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 80px;
+}
+
+#mothlyReturn .container {
+  padding: 180px 0;
+}
+#mothlyReturn .container .returnHeader {
+  text-align: center;
+}
+#mothlyReturn .container .returnHeader h1 {
+  margin-bottom: 50px;
+}
+#mothlyReturn .container .returnCardWarpper {
+  width: 100%;
+  display: flex;
+  margin-top: 60px;
+  gap: 28px;
+}
+#mothlyReturn .container .returnCardWarpper .returnCard {
+  width: 100%;
+  max-width: 339px;
+  padding: 70px 30px;
+  background-image: url(./asset/BookAppointmentForm.png);
+  background-size: 100% 100%;
+  text-align: center;
+}
+
+#clint {
+  padding: 160px 0;
+}
+#clint .container .clintHeading {
+  text-align: center;
+  margin-bottom: 80px;
+}
+#clint .container .clintCardWarpper {
+  display: flex;
+  gap: 30px;
+}
+#clint .container .clintCardWarpper .clintCard {
+  width: 100%;
+  max-width: 457px;
+  text-align: center;
+  padding: 60px 40px;
+  background-image: url(./asset/BookAppointmentForm.png);
+  background-size: 100% 100%;
+}
+#clint .container .clintCardWarpper .clintCard h3 {
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+#clint .container .clintCardWarpper .clintCard span {
+  display: inline-block;
+  font-size: 22px;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+
+#realResult {
+  width: 100%;
+  background-image: url(./asset/bg/ResultsBg.png);
+  background-size: 100% 100%;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+#realResult .container {
+  text-align: center;
+}
+#realResult .container .resultHeading {
+  margin-bottom: 80px;
+  text-align: center;
+}
+#realResult .container .resultRapper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+#realResult .container .resultRapper .resultCard {
+  width: 100%;
+  max-width: 446px;
+  text-align: center;
+}
+#realResult .container .resultRapper .resultCard .resultImg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+#realResult .container .resultRapper .resultCard span {
+  font-size: 22px;
+  font-weight: 700;
+  text-align: center;
+}
+#realResult .container h2 {
+  text-align: center;
+  margin: 100px 0;
+}
+#realResult .container button {
+  text-align: center;
+  padding: 10px 40px;
+  background: linear-gradient(to left, #87ceec, #1e90ff);
+  border-radius: 5px;
+  font-weight: 700;
+  font-size: 22px;
+}
+
+#yourBenifit .container .benifitHeading {
+  text-align: center;
+  margin-bottom: 80px;
+}
+#yourBenifit .container .benifitCardWarpper {
+  width: 100%;
+  display: flex;
+  gap: 30px;
+}
+#yourBenifit .container .benifitCardWarpper .benifitCard {
+  width: 100%;
+  max-width: 334px;
+  background-image: url(./asset/BookAppointmentForm.png);
+  background-size: 100% 100%;
+  padding: 40px 34px;
+  cursor: pointer;
+}
+#yourBenifit .container .benifitCardWarpper .benifitCard:hover {
+  background-image: url(./asset/FeathuredcardBG.png);
+  transition: 0.1s all linear;
+}
+#yourBenifit .container .benifitCardWarpper .benifitCard h3 {
+  margin-top: 10px;
+  margin-bottom: 8px;
+}
+#yourBenifit .container .benifitCardWarpper .benifitCard p {
+  line-height: 34px;
+}
+#yourBenifit .container .earningRow {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 164px;
+  margin-bottom: 134px;
+}
+#yourBenifit .container .stepCardwarpper {
+  width: 100%;
+  display: flex;
+  gap: 37px;
+  align-items: center;
+}
+#yourBenifit .container .stepCardwarpper .stepcard {
+  width: 100%;
+  max-width: 310px;
+  background-image: url(./asset/BookAppointmentForm.png);
+  background-size: 100% 100%;
+  padding: 50px 40px;
+}
+#yourBenifit .container .stepCardwarpper .stepcard h3 {
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+
+#supports {
+  width: 100%;
+  background-image: url(./asset/bg/QuestionsBg.png);
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+#supports .container .supportsWarpper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 120px;
+}
+#supports .container .supportContent .SupportHeading {
+  text-align: center;
+  width: 100%;
+  max-width: 1099px;
+  margin-bottom: 40px;
+}
+#supports .container .supportContent .supporTrailBox {
+  width: 100%;
+  padding: 60px 30px;
+  display: flex;
+  gap: 30px;
+  background-image: url(./asset/Frame4533.png);
+  background-size: 100% 100%;
+}
+#supports .container .supportContent .supporTrailBox .trialTxt {
+  width: 100%;
+  display: flex;
+  row-gap: 70px;
+  column-gap: 40px;
+}
+#supports .container .supportContent .supporTrailBox .trialTxt .tiralPeriod {
+  width: 114px;
+}
+#supports .container .supportContent .supporTrailBox .trialTxt .tiralPeriod span {
+  font-size: 22px;
+  font-weight: 300;
+}
+#supports .container .supportContent .supporTrailBox .trialTxt .tiralPeriod p {
+  font-weight: 600;
+  margin-top: 10px;
+}
+#supports .container .supportContent .supporTrailBox .trialTxt .aftertrial span {
+  font-size: 22px;
+  font-weight: 300;
+}
+#supports .container .supportContent .supporTrailBox .trialTxt .aftertrial p {
+  font-weight: 600;
+  margin-top: 10px;
+}
+#supports .container .supportContent .supporTrailBox .tiralBTN {
+  width: 100%;
+  max-width: 400px;
+  padding: 20px 25px;
+  font-size: 28px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  color: white;
+  background: linear-gradient(to left, #87ceec, #1e90ff);
+  cursor: pointer;
+}
+
+footer {
+  width: 100%;
+  background: #000;
+  padding: 50px 0;
+}
+footer .container .footerWarpper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+footer .container .footerWarpper .logoBOx {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+footer .container .footerWarpper .nevigetion ul,
+footer .container .footerWarpper .QuickLinks ul {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+footer .container .footerWarpper .nevigetion ul li:hover,
+footer .container .footerWarpper .QuickLinks ul li:hover {
+  background: -webkit-linear-gradient(180deg, #87ceec, #01befe, #1e90ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+footer .container .footerWarpper .riskFree {
+  max-width: 250px;
+}
+footer .container .footerWarpper .riskFree button {
+  display: block;
+  padding: 10px 25px;
+  margin-top: 30px;
+  font-size: 28px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  color: white;
+  background: linear-gradient(to left, #87ceec, #1e90ff);
+  cursor: pointer;
+}
+
+#footnote {
+  background: #00032c;
+  text-align: center;
+  padding: 22px;
+}
+
+@media screen and (max-width: 480px) {
+  h1 {
+    font-size: 42px;
+    line-height: 44px;
+  }
+  h3 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+  h3 {
+    font-size: 30px;
+    line-height: 30px;
+  }
+  p {
+    font-size: 15px;
+    line-height: 18px;
+  }
+  #whyHundred .container .HundredHeadrer {
+    margin: 0 auto;
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  #whyHundred .container .cardContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-bottom: 30px;
+  }
+  #mothlyReturn .container {
+    padding: 80px 0;
+  }
+  #mothlyReturn .container .returnHeader {
+    text-align: center;
+  }
+  #mothlyReturn .container .returnHeader h1 {
+    margin-bottom: 20px;
+  }
+  #mothlyReturn .container .returnCardWarpper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+    gap: 28px;
+  }
+  #clint {
+    padding: 160px 0;
+  }
+  #clint .container .clintHeading {
+    margin-bottom: 40px;
+    font-size: 36px;
+  }
+  #clint .container .clintCardWarpper {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  #realResult .container {
+    text-align: center;
+  }
+  #realResult .container .resultHeading {
+    margin-bottom: 80px;
+    text-align: center;
+  }
+  #realResult .container .resultRapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+  #realResult .container .resultRapper .resultCard span {
+    font-size: 26px;
+  }
+  #realResult .container h2 {
+    text-align: center;
+    margin: 100px 0;
+  }
+  #realResult .container button {
+    text-align: center;
+    padding: 10px;
+    background: linear-gradient(to left, #87ceec, #1e90ff);
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 22px;
+    cursor: pointer;
+    border-radius: 12px;
+  }
+  #yourBenifit .container .benifitCardWarpper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #yourBenifit .container .earningRow {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 104px;
+    margin-bottom: 134px;
+  }
+  #yourBenifit .container .earningRow .earningHeading h1 {
+    font-size: 55px;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  #yourBenifit .container .stepCardwarpper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 37px;
+    align-items: center;
+  }
+  #yourBenifit .container .stepCardwarpper .arrowRounded {
+    transform: rotate(90deg);
+  }
+  #supports {
+    width: 100%;
+  }
+  #supports .container .supportsWarpper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-bottom: 120px;
+  }
+  #supports .container .supportContent .SupportHeading {
+    text-align: center;
+    width: 100%;
+    max-width: 1099px;
+    margin-bottom: 40px;
+  }
+  #supports .container .supportContent .supporTrailBox {
+    width: 100%;
+    padding: 60px 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  #supports .container .supportContent .supporTrailBox .trialTxt {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 70px;
+    column-gap: 40px;
+  }
+  #supports .container .supportContent .supporTrailBox .trialTxt .horizontalLine {
+    display: none;
+  }
+}/*# sourceMappingURL=style.css.map */

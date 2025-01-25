@@ -14,7 +14,25 @@ h6,
 p {
   line-height: 0.8;
 }
-a,
+h2 {
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 54px;
+}
+h3 {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 42;
+}
+p {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 34px;
+}
+a{
+  text-decoration: none;
+}
+
 button {
   display: inline-block;
 }
@@ -24,14 +42,12 @@ button {
   margin: 0 auto;
 }
 #root {
-  background: #000932;
-  padding: 60px 5px;
+  background: #000D3A;
 }
 nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 120px;
 }
 .logo {
   width: 250px;
@@ -58,9 +74,18 @@ nav {
   cursor: pointer;
 }
 /* ====banner=== */
+
+#banner{
+  width: 100%;
+  background-image: url(./asset/bg/HeroBg.png);
+  background-size: 100% 100%;
+  padding-top: 100px;
+  padding-bottom: 40px;
+}
 .bannerWarpper {
   display: flex;
   column-gap: 100px;
+  padding: 10px;
 }
 .bannerContent {
   width: 100%;
@@ -128,6 +153,7 @@ nav {
   width: 100%;
   max-width: 530px;
   padding: 50px 60px;
+  background-color: #01bffe41;
   background-image: url(./asset/BookAppointmentForm.png);
   background-size: 100% 100%;
 }
@@ -153,7 +179,7 @@ label {
 input {
   width: 100%;
   background: transparent;
-  border: 1px solid gray;
+  border: 1px solid #ffffffab;
   border-radius: 3px;
   padding: 10px 20px;
 }
@@ -189,44 +215,47 @@ textarea {
   margin-right: 30px;
 }
 /* =======growTimeContainer======== */
-#growTime{
-  padding:150px  0;
+#growTime {
+  padding: 150px 0;
 }
-.growTimeContainer{
+.growTimeContainer {
   width: 100%;
   padding: 30px 30px;
   background-image: url(./asset/Frame1.png);
   background-size: 100% 100%;
 }
-.growTimeWarpper{
+.growTimeWarpper {
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-.txtBox{
+.txtBox {
   display: flex;
   align-items: center;
-  gap: 40px ;
+  gap: 40px;
 }
-.bigText{
+.bigText {
   font-size: 150px;
   font-weight: 700;
 }
-.smTxt{
+.smTxt {
   display: inline-block;
   width: 100%;
   max-width: 330px;
   font-size: 39px;
 }
-.offerEndsIN{
+.offerEndsIN {
   display: block;
   font-size: 32px;
   text-align: center;
   margin-bottom: 30px;
 }
-.timerDisplay{display: flex; gap: 15px;}
-.times{
+.timerDisplay {
+  display: flex;
+  gap: 15px;
+}
+.times {
   padding: 5px;
   background-image: url(./asset/Frame3.png);
   background-size: 100% 100%;
@@ -235,27 +264,27 @@ textarea {
 }
 
 /* ======wealth section====== */
-#ultimate{
-  padding: 30px 0;
+#ultimate {
+  padding: 80px;
 }
-.wealthHeader{
-  padding-bottom: 80px;
+.wealthHeader {
+  padding: 80px;
 }
-.wealthHeader h2{
+.wealthHeader h2 {
   font-size: 72px;
   font-weight: 700;
   text-align: center;
   margin-bottom: 50px;
 }
-.wealthHeader p{
+.wealthHeader p {
   text-align: center;
 }
-.wealthPragraph{
+.wealthPragraph {
   font-size: 22px;
   line-height: 34px;
   font-weight: 400;
 }
-.walthContentWarpper{
+.walthContentWarpper {
   width: 100%;
   padding: 60px 30px;
   background-image: url(./asset/BookAppointmentForm.png);
@@ -263,13 +292,12 @@ textarea {
   display: flex;
   flex-wrap: wrap;
   margin-bottom: 50px;
-
 }
-.wealthCard{
+.wealthCard {
   width: 50%;
   padding: 60px 30px;
 }
-.wealthCardHeader{
+.wealthCardHeader {
   width: 100%;
   max-width: 530px;
   display: flex;
@@ -277,40 +305,40 @@ textarea {
   justify-content: space-between;
   gap: 30px;
 }
-.wealthCardTitle{
+.wealthCardTitle {
   font-size: 32px;
   line-height: 43px;
   font-weight: 700;
 }
-.wealthCardPng{
+.wealthCardPng {
   width: 110px;
   height: 110px;
 }
-.signUpBtn{
+.signUpBtn {
   width: 100%;
   text-align: center;
   padding: 10px;
-  background: linear-gradient(to left, #87ceec, #1e90ff);
+  background: linear-gradient(to left,#87CEEC, #01BEFE, #1e90ff);
   border-radius: 5px;
   font-weight: 700;
   font-size: 22px;
 }
 /* ========circle offer sections====== */
-#timesOffer{
+#timesOffer {
   padding: 70px 0;
   margin-top: 100px;
 }
-.timerWarpper{
+.timerWarpper {
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.timerHeader{
+.timerHeader {
   font-size: 32px;
   text-align: center;
 }
-.timerCircle{
+.timerCircle {
   margin-top: 30px;
   width: 325px;
   height: 365px;
@@ -322,10 +350,6 @@ textarea {
   font-size: 42px;
   font-weight: 700;
 }
-
-
-
-
 
 /* ==========mobile responsive========= */
 /* ==========mobile responsive========= */
@@ -396,92 +420,95 @@ textarea {
     font-size: 20px;
   }
   /* ======grow time==== */
-  #growTime{
-    padding:50px  0;
+  #growTime {
+    padding: 50px 0;
   }
-  .growTimeWarpper{
+  .growTimeWarpper {
     flex-wrap: wrap;
   }
-  .txtBox{
+  .txtBox {
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     gap: 20px;
-    
   }
-  .bigText{
+  .bigText {
     font-size: 100px;
     font-weight: 700;
-
   }
-  .smTxt{
+  .smTxt {
     display: inline-block;
     width: 100%;
     font-size: 32px;
     text-align: center;
   }
-  .offerEndsIN{
+  .offerEndsIN {
     font-size: 32px;
     text-align: center;
     margin-bottom: 30px;
   }
-  .timerDisplay{display: flex; gap: 15px; justify-content: center;}
-  .times{
+  .timerDisplay {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+  }
+  .times {
     padding: 5px;
     background-image: url(./asset/Frame3.png);
     background-size: 100% 100%;
     font-size: 37px;
     font-weight: 700;
   }
-  #ultimate{
+  #ultimate {
     padding: 5pxx 0;
   }
-  .walthContentWarpper{
+  .walthContentWarpper {
     padding: 10px 0;
   }
-  .wealthCard{width: 100%;}
-  .wealthHeader{
+  .wealthCard {
+    width: 100%;
+    padding: 5px 5px;
+  }
+  .wealthHeader {
     width: 100%;
     gap: 8px;
     padding-bottom: 50px;
   }
-  .wealthHeader h2{
+  .wealthHeader h2 {
     font-size: 42px;
     line-height: 50px;
     margin-bottom: 20px;
   }
-  .wealthPragraph{
+  .wealthPragraph {
     font-size: 15px;
     line-height: 26px;
     font-weight: 400;
   }
-  .walthContentWarpper{
+  .walthContentWarpper {
     flex-direction: column;
   }
-  .wealthCardTitle{
+  .wealthCardTitle {
     font-size: 30px;
     line-height: 40px;
   }
-  .wealthCard{
-    padding: 10px 0;
+  .wealthCard {
+    padding: 10px 0px;
   }
   /* =====offer times===== */
-  #timesOffer{
+  #timesOffer {
     padding: 30px 0;
     margin-top: 0px;
   }
-  
-  .timerHeader{
+
+  .timerHeader {
     font-size: 24px;
     text-align: center;
   }
-  .timerCircle{
+  .timerCircle {
     margin-top: 30px;
     width: 125px;
     height: 135px;
     font-size: 22px;
     font-weight: 700;
   }
-
-  
 }
